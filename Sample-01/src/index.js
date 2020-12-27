@@ -21,6 +21,7 @@ ReactDOM.render(
     clientId={config.clientId}
     audience={config.audience}
     redirectUri={window.location.origin}
+    connection="google-oauth2"
     onRedirectCallback={onRedirectCallback}
   >
     <App />
