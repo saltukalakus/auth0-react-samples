@@ -4840,6 +4840,11 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+gk@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/gk/-/gk-0.0.1.tgz"
+  integrity sha512-UIltmmKGKf7c/NGiQZBjlPyJmgHtdqEG/JOY4wf9EpvzS1w4OLliBYbawoOdadrvO+tSdDfuRH6LLBvr3psFzA==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"

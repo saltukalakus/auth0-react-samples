@@ -20,6 +20,7 @@ export const ExternalApiComponent = () => {
     getAccessTokenWithPopup,
   } = useAuth0();
 
+  /*
   
  // The code below will cause the /external-api page to loop infinitely
  useEffect(() => {
@@ -29,7 +30,7 @@ export const ExternalApiComponent = () => {
     try {
       console.log("getAccessTokenSilently");
       const token = await getAccessTokenSilently({
-        cacheMode: "off",
+        cacheMode: "on",
         authorizationParams: {
           my_custom_parameter: "test",
           myCustomParam: "test",
@@ -52,6 +53,8 @@ export const ExternalApiComponent = () => {
     active = false;
   } 
 }, [getAccessTokenSilently, state]);
+
+*/
 
   const handleConsent = async () => {
     try {
@@ -91,7 +94,7 @@ export const ExternalApiComponent = () => {
     try {
       console.log('====== SILENT AUTH ===========')
       const token = await getAccessTokenSilently({
-        cacheMode: "on",
+        cacheMode: "off",
         authorizationParams: {
           my_custom_parameter: "test",
           myCustomParam: "test",
